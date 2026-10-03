@@ -2,7 +2,7 @@
 
 **Last updated: October 3, 2026**
 
-This Privacy Policy applies to the Android application published under the package name `com.atlasapps.prayer`, displayed as **Prayer Times & Qibla**, **Namaz Vakitleri & Kıble**, or **مواقيت الصلاة والقبلة** depending on the user's language.
+This Privacy Policy applies to the Android application published under the package name `com.atlasapps.prayer`, displayed as **Prayer Times & Qibla**, **Namaz Vakitleri & Kıble**, **مواقيت الصلاة والقبلة**, or **Horaires de prière & Qibla** depending on the user's language.
 
 The application is developed and published by **Yasin Bayram**.
 
@@ -10,9 +10,9 @@ The application is developed and published by **Yasin Bayram**.
 
 Prayer Times & Qibla is designed with privacy in mind.
 
-Prayer times, the Qibla direction, and related prayer information are calculated on your device.
+Prayer times, the Qibla direction, the Hijri date, reminders, and related prayer information are calculated and managed primarily on your device.
 
-The app does not require a user account, and the developer does not operate a backend server that receives your personal information.
+The app does not require a user account, and the developer does not operate a backend server that receives or stores user profiles or prayer-location information.
 
 Since version 1.4, the app displays one banner advertisement at the bottom of the Home screen using Google AdMob.
 
@@ -30,11 +30,11 @@ Approximate location is used locally on your device to:
 
 The app does not request precise location permission or background location permission.
 
-Your prayer-location coordinates are not stored by the app and are not transmitted to Yasin Bayram or to a developer-operated remote server.
+Prayer-location coordinates are not stored by the app and are not transmitted to Yasin Bayram or to a developer-operated remote server.
 
-You can use the app without granting location access by selecting a city manually.
+You can use the app without granting location permission by selecting a city manually.
 
-The city or location used by Prayer Times & Qibla for prayer calculations is not provided by the app to Google AdMob or other advertisers.
+The location, coordinates, or manually selected city used by Prayer Times & Qibla for prayer calculations are not provided by the app to Google AdMob or other advertisers.
 
 ## Information stored on your device
 
@@ -69,7 +69,7 @@ These permissions are optional.
 
 If precise alarm access is unavailable or later revoked, the app may use Android's best-effort alarm scheduling instead.
 
-The app may use Android's device-boot event, time changes, or time-zone changes to restore reminders that you previously enabled.
+The app may use Android system events, such as device restart, time changes, or time-zone changes, to restore reminders that you previously enabled.
 
 Home-screen widgets display prayer information already calculated on your device.
 
@@ -82,6 +82,8 @@ The Daily Ayah feature contains locally bundled Quran verses and translations.
 Arabic Quran text is sourced from the **Tanzil Project**.
 
 English translations use Marmaduke Pickthall, and Turkish translations use the original translation by Elmalılı Hamdi Yazır, as credited in the app.
+
+A French Quran translation is not currently included; when the app is used in French, the Daily Ayah is displayed using the available Arabic text.
 
 The app does not transmit information about the verses you view.
 
@@ -97,7 +99,7 @@ The Home screen displays one banner advertisement provided by **Google AdMob** u
 
 Consent and privacy choices related to advertising may be handled using Google's User Messaging Platform.
 
-Prayer Times & Qibla itself provides the advertising SDK only with the information necessary to request and display the banner, such as the ad unit, banner size, and the configured maximum ad content rating.
+Prayer Times & Qibla itself provides the advertising SDK only with information necessary to request and display the banner, such as the ad unit, banner size, and the configured maximum ad content rating.
 
 Prayer Times & Qibla does **not** provide the advertising SDK with:
 
@@ -112,7 +114,7 @@ Prayer Times & Qibla does **not** provide the advertising SDK with:
 According to Google's disclosures for the Google Mobile Ads SDK, Google may automatically process information such as:
 
 - your device's IP address, which may be used to estimate a general or approximate location;
-- app interactions, such as app launches, taps, and ad interactions;
+- app interactions, such as app launches, taps, and advertising interactions;
 - diagnostic information, such as app launch performance, hangs, or related technical information;
 - device or advertising identifiers, such as the Android advertising ID or app set ID, where available.
 
@@ -135,7 +137,9 @@ Where required, you may be able to:
 - decline consent;
 - manage individual privacy options.
 
-If you do not consent to personalized advertising, Google may provide non-personalized or limited advertising. Certain technical information, such as IP addresses, may still be processed to deliver and secure advertising.
+If you do not consent to personalized advertising, Google may provide non-personalized or limited advertising.
+
+Certain technical information, such as IP addresses, may still be processed to deliver, secure, and measure advertising.
 
 ### Supported US states
 
@@ -147,7 +151,9 @@ Where required and available, you can review or change your advertising privacy 
 
 **Settings → Privacy choices**
 
-You may also be able to reset or delete your Android advertising ID in your device's Google or privacy settings. The exact path depends on your Android device.
+You may also be able to reset or delete your Android advertising ID in your device's Google or privacy settings.
+
+The exact path depends on your Android device and Android version.
 
 ## app-ads.txt
 
@@ -157,13 +163,19 @@ https://yasinbyrum.github.io
 
 publishes an `app-ads.txt` file.
 
-This file is a public industry-standard declaration identifying the advertising account authorized to sell advertising inventory for Prayer Times & Qibla.
+The current authorized Google advertising declaration is:
+
+`google.com, pub-4052811546306670, DIRECT, f08c47fec0942fa0`
+
+The `app-ads.txt` standard publicly identifies advertising accounts authorized to sell advertising inventory for an application and helps prevent advertising fraud.
 
 The `app-ads.txt` file does not contain information about users.
 
 ## No developer-operated analytics
 
-The app does not include developer-operated analytics or crash-reporting services. Data processed by Google for advertising is described in the advertising section above.
+The app does not include developer-operated analytics or crash-reporting services.
+
+Data processed by Google for advertising is described in the advertising section above.
 
 ## Third-party and open-source software
 
