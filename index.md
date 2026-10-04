@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: October 3, 2026**
+**Last updated: October 4, 2026**
 
 This Privacy Policy applies to the Android application published under the package name `com.atlasapps.prayer`, displayed as **Prayer Times & Qibla**, **Namaz Vakitleri & Kıble**, **مواقيت الصلاة والقبلة**, or **Horaires de prière & Qibla** depending on the user's language.
 
@@ -13,6 +13,8 @@ Prayer Times & Qibla is designed with privacy in mind.
 Prayer times, the Qibla direction, the Hijri date, reminders, and related prayer information are calculated and managed primarily on your device.
 
 The app does not require a user account, and the developer does not operate a backend server that receives or stores user profiles or prayer-location information.
+
+Optional features you turn on yourself — including an Adhan that plays an audio file you choose and a prayer tracker — work on your device only. The selected audio file and your prayer tracker entries are not uploaded or sent to the developer or to advertisers.
 
 Since version 1.4, the app displays one banner advertisement at the bottom of the Home screen using Google AdMob.
 
@@ -47,6 +49,7 @@ The app may store application settings locally on your device, including:
 - prayer notification preferences;
 - before-prayer reminder settings;
 - Iqama reminder settings;
+- Adhan settings;
 - language preferences;
 - time-format preferences;
 - Hijri date adjustment;
@@ -55,25 +58,70 @@ The app may store application settings locally on your device, including:
 
 This information remains in the app's private local storage and is not sent to the developer.
 
+Prayer tracker entries are also stored locally on your device and are specifically excluded from the app's Android backup rules, as described below.
+
 You can remove locally stored application data by clearing the app's data in Android settings or uninstalling the app.
 
-If Android backup is enabled on your device, Android may include application settings in your device backup according to your Android and Google account settings.
+If Android backup is enabled on your device, Android may include other application settings in your device backup according to your Android and Google account settings.
 
-## Prayer notifications, reminders and widgets
+## Prayer notifications, reminders, Adhan and widgets
 
-If you enable prayer notifications, before-prayer reminders, or Iqama reminders, the app may request permission to send notifications.
+If you enable prayer notifications, Adhan, before-prayer reminders, or Iqama reminders, the app may request permission to send notifications.
 
-On supported Android versions, the app may also ask you to allow precise alarm scheduling so that enabled reminders can be delivered closer to their calculated times.
+On supported Android versions, the app may also ask you to allow precise alarm scheduling so that prayer notifications, Adhan, before-prayer reminders, and Iqama reminders you enable can be delivered closer to their calculated times.
 
 These permissions are optional.
 
-If precise alarm access is unavailable or later revoked, the app may use Android's best-effort alarm scheduling instead.
+If precise alarm access is unavailable or later revoked, the app may use Android's best-effort alarm scheduling instead where supported.
 
 The app may use Android system events, such as device restart, time changes, or time-zone changes, to restore reminders that you previously enabled.
 
 Home-screen widgets display prayer information already calculated on your device.
 
 These functions do not transmit your personal information to the developer.
+
+## Adhan audio — optional
+
+The Adhan feature is off unless you turn it on in **Settings → Adhan**.
+
+The app does not include or download an Adhan recording. You choose an audio file yourself using Android's system file picker.
+
+To play the selected file at the prayer times you enable, the app keeps:
+
+- a reference to the selected file;
+- Android's permission to reopen that file;
+- the file name shown in the app.
+
+The selected audio file is not copied to the app's servers, uploaded, or sent to the developer, advertisers, or other third parties by Prayer Times & Qibla.
+
+When an enabled prayer time arrives, the selected audio file is played once using Android's alarm audio usage, together with an ongoing notification that allows you to stop playback.
+
+Playback follows your device's alarm-volume and Do Not Disturb settings. Prayer Times & Qibla does not change your device's volume or Do Not Disturb configuration.
+
+Turning the Adhan off keeps your chosen sound so that you can use it again later.
+
+If you clear or change the selected sound, the app removes its reference to the previous file and releases its permission to access that file.
+
+## Prayer Tracker — optional
+
+The Prayer Tracker is off unless you turn it on in Settings.
+
+If enabled, you can mark prayers as completed for the current day.
+
+Prayer Tracker entries:
+
+- are stored only in the app's private storage on your device;
+- do not contain your location or coordinates;
+- are not uploaded to the developer;
+- are not sent to advertisers;
+- are not used for advertising;
+- are not synchronized to a cloud service or user account.
+
+Prayer Tracker data is excluded from Android cloud backup and device-to-device transfer by the app's backup configuration.
+
+Tracker entries older than 60 days are automatically removed.
+
+Clearing the app's data or uninstalling the app removes Prayer Tracker entries stored on that device.
 
 ## Quran content and sharing
 
@@ -87,9 +135,17 @@ A French Quran translation is not currently included; when the app is used in Fr
 
 The app does not transmit information about the verses you view.
 
-If you choose the Share action, Android's system share functionality passes the selected verse text to the application you choose.
+When you choose to share a Daily Ayah, you can share it as text or as an image.
+
+Verse images are created entirely on your device and are stored temporarily in the app's private cache for sharing.
+
+Android's system share functionality passes the selected text or temporary image only to the application you choose.
 
 Prayer Times & Qibla does not receive information about how the receiving application handles that content.
+
+The app also includes a **Share app** option. When you use it, Android's share functionality sends a short message containing the Google Play link for Prayer Times & Qibla to the application you choose.
+
+The developer does not receive information about who you share the app or Quran content with.
 
 The privacy practices of any application you choose to share content with are governed by that application's own privacy policy.
 
@@ -109,7 +165,9 @@ Prayer Times & Qibla does **not** provide the advertising SDK with:
 - your prayer times;
 - your prayer calculation method;
 - your Qibla information;
-- your prayer reminder preferences.
+- your prayer reminder preferences;
+- your selected Adhan audio file or its file reference;
+- your Prayer Tracker entries.
 
 According to Google's disclosures for the Google Mobile Ads SDK, Google may automatically process information such as:
 
@@ -203,9 +261,11 @@ The developer does not knowingly collect personal information from children.
 
 ## Security
 
-Application preferences are stored within Android's private application storage.
+Application preferences and Prayer Tracker entries are stored within Android's private application storage.
 
-The developer does not operate a remote database containing Prayer Times & Qibla user profiles or prayer-location information.
+Temporary Daily Ayah sharing images are created in the app's private cache and shared only when you explicitly choose a receiving application.
+
+The developer does not operate a remote database containing Prayer Times & Qibla user profiles, prayer-location information, Adhan audio files, or Prayer Tracker entries.
 
 Data processed independently by third-party services such as Google is subject to those services' own security and privacy practices.
 
