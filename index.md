@@ -1,24 +1,24 @@
 # Privacy Policy
 
-**Last updated: October 4, 2026**
+**Last updated: October 16, 2026**
 
-This Privacy Policy applies to the Android application published under the package name `com.atlasapps.prayer`, displayed as **Prayer Times & Qibla**, **Namaz Vakitleri & Kıble**, **مواقيت الصلاة والقبلة**, or **Horaires de prière & Qibla** depending on the user's language.
+This Privacy Policy applies to the Android application published under the package name `com.atlasapps.prayer`, displayed as **Prayer Times, Qibla & Tracker**, **Namaz Vakitleri, Ezan & Kıble**, **مواقيت الصلاة والقبلة والأذان**, or **Horaires de prière & Qibla** depending on the user's language.
 
 The application is developed and published by **Yasin Bayram**.
 
 ## Overview
 
-Prayer Times & Qibla is designed with privacy in mind.
+Prayer Times, Qibla & Tracker is designed with privacy in mind.
 
-Prayer times, the Qibla direction, the Hijri date, reminders, and related prayer information are calculated and managed primarily on your device.
+Prayer times, the Qibla direction, the Hijri date, reminders, saved places, Prayer Tracker entries, fasting records, and related prayer information are calculated or managed primarily on your device.
 
-The app does not require a user account, and the developer does not operate a backend server that receives or stores user profiles or prayer-location information.
+The app does not require a user account, and the developer does not operate a backend server that receives or stores user profiles, prayer history, fasting records, saved places, or prayer-location information.
 
-Optional features you turn on yourself — including an Adhan that plays an audio file you choose and a prayer tracker — work on your device only. The selected audio file and your prayer tracker entries are not uploaded or sent to the developer or to advertisers.
+Optional features you use yourself — including an Adhan that plays an audio file you choose and the Prayer Tracker — work on your device. The selected audio file, Prayer Tracker entries, and fasting records are not uploaded to the developer and are not provided by the app to advertising partners.
 
-Since version 1.4, the app displays one banner advertisement at the bottom of the Home screen using Google AdMob.
+The app may display one small banner advertisement at the end of the Home screen using **Unity LevelPlay**, with advertising demand currently provided by **Unity Ads** and **ironSource Ads**.
 
-The app does not provide the location, coordinates, or manually selected city used for prayer-time calculations to advertisers.
+The app does not provide the location, coordinates, manually selected city, prayer times, Prayer Tracker records, fasting records, or prayer preferences used by the app to advertising partners.
 
 ## Location
 
@@ -32,43 +32,51 @@ Approximate location is used locally on your device to:
 
 The app does not request precise location permission or background location permission.
 
-Prayer-location coordinates are not stored by the app and are not transmitted to Yasin Bayram or to a developer-operated remote server.
+Prayer-location coordinates are not transmitted to Yasin Bayram or to a developer-operated remote server.
 
 You can use the app without granting location permission by selecting a city manually.
 
-The location, coordinates, or manually selected city used by Prayer Times & Qibla for prayer calculations are not provided by the app to Google AdMob or other advertisers.
+The location, coordinates, or manually selected city used by Prayer Times, Qibla & Tracker for prayer calculations are not provided by the app to Unity LevelPlay, Unity Ads, ironSource Ads, or other advertising partners.
+
+Advertising providers may independently derive an approximate location from technical information such as the device's IP address, as described in the Advertising section below.
 
 ## Information stored on your device
 
-The app may store application settings locally on your device, including:
+The app may store application information locally on your device, including:
 
 - your manually selected city identifier;
+- saved places;
 - prayer calculation settings;
 - Asr calculation settings;
 - prayer-time adjustments;
 - prayer notification preferences;
 - before-prayer reminder settings;
 - Iqama reminder settings;
+- Jumu'ah reminder settings;
+- Ramadan reminder settings;
 - Adhan settings;
 - language preferences;
 - time-format preferences;
 - Hijri date adjustment;
 - Home-screen display preferences;
-- recently calculated prayer times used by the app and widgets.
+- recently calculated prayer times used by the app and widgets;
+- Prayer Tracker entries;
+- fasting records;
+- advertising privacy choices.
 
 This information remains in the app's private local storage and is not sent to the developer.
 
-Prayer tracker entries are also stored locally on your device and are specifically excluded from the app's Android backup rules, as described below.
+Prayer Tracker entries are specifically excluded from the app's Android cloud backup and device-to-device transfer rules.
 
 You can remove locally stored application data by clearing the app's data in Android settings or uninstalling the app.
 
-If Android backup is enabled on your device, Android may include other application settings in your device backup according to your Android and Google account settings.
+If Android backup is enabled on your device, Android may include other eligible application settings in your device backup according to your Android and Google account settings.
 
 ## Prayer notifications, reminders, Adhan and widgets
 
-If you enable prayer notifications, Adhan, before-prayer reminders, or Iqama reminders, the app may request permission to send notifications.
+If you enable prayer notifications, Adhan, before-prayer reminders, Iqama reminders, Jumu'ah reminders, Suhoor reminders, or Iftar reminders, the app may request permission to send notifications.
 
-On supported Android versions, the app may also ask you to allow precise alarm scheduling so that prayer notifications, Adhan, before-prayer reminders, and Iqama reminders you enable can be delivered closer to their calculated times.
+On supported Android versions, the app may also ask you to allow precise alarm scheduling so that reminders you enable can be delivered closer to their calculated times.
 
 These permissions are optional.
 
@@ -78,11 +86,11 @@ The app may use Android system events, such as device restart, time changes, or 
 
 Home-screen widgets display prayer information already calculated on your device.
 
-These functions do not transmit your personal information to the developer.
+These functions do not transmit your personal prayer information to the developer.
 
 ## Adhan audio — optional
 
-The Adhan feature is off unless you turn it on in **Settings → Adhan**.
+The Adhan feature is off unless you turn it on in Settings.
 
 The app does not include or download an Adhan recording. You choose an audio file yourself using Android's system file picker.
 
@@ -92,36 +100,36 @@ To play the selected file at the prayer times you enable, the app keeps:
 - Android's permission to reopen that file;
 - the file name shown in the app.
 
-The selected audio file is not copied to the app's servers, uploaded, or sent to the developer, advertisers, or other third parties by Prayer Times & Qibla.
+The selected audio file is not copied to the developer's servers, uploaded, or sent by the app to advertising partners or other third parties.
 
-When an enabled prayer time arrives, the selected audio file is played once using Android's alarm audio usage, together with an ongoing notification that allows you to stop playback.
+When an enabled prayer time arrives, the selected audio file is played using Android's alarm audio usage, together with an ongoing notification that allows you to stop playback.
 
-Playback follows your device's alarm-volume and Do Not Disturb settings. Prayer Times & Qibla does not change your device's volume or Do Not Disturb configuration.
+Playback follows your device's alarm-volume and Do Not Disturb settings. Prayer Times, Qibla & Tracker does not change your device's volume or Do Not Disturb configuration.
 
 Turning the Adhan off keeps your chosen sound so that you can use it again later.
 
 If you clear or change the selected sound, the app removes its reference to the previous file and releases its permission to access that file.
 
-## Prayer Tracker — optional
+## Prayer Tracker and fasting records
 
-The Prayer Tracker is off unless you turn it on in Settings.
-
-If enabled, you can mark prayers as completed for the current day.
+If you use the Prayer Tracker, you can mark prayers as completed and review recent prayer history.
 
 Prayer Tracker entries:
 
 - are stored only in the app's private storage on your device;
 - do not contain your location or coordinates;
 - are not uploaded to the developer;
-- are not sent to advertisers;
+- are not sent to advertising partners;
 - are not used for advertising;
-- are not synchronized to a cloud service or user account.
+- are not synchronized to a developer-operated cloud service or user account.
 
 Prayer Tracker data is excluded from Android cloud backup and device-to-device transfer by the app's backup configuration.
 
 Tracker entries older than 60 days are automatically removed.
 
-Clearing the app's data or uninstalling the app removes Prayer Tracker entries stored on that device.
+The app may also store fasting records locally on your device. These records are not provided by the app to advertising partners or to the developer.
+
+Clearing the app's data or uninstalling the app removes these records from that device.
 
 ## Quran content and sharing
 
@@ -135,83 +143,112 @@ A French Quran translation is not currently included; when the app is used in Fr
 
 The app does not transmit information about the verses you view.
 
-When you choose to share a Daily Ayah, you can share it as text or as an image.
+When you choose to share a Daily Ayah, prayer times, or other supported content, Android's system sharing functionality passes the selected text or temporary image only to the application you choose.
 
-Verse images are created entirely on your device and are stored temporarily in the app's private cache for sharing.
+Images created for sharing are generated on your device and stored temporarily in the app's private cache.
 
-Android's system share functionality passes the selected text or temporary image only to the application you choose.
-
-Prayer Times & Qibla does not receive information about how the receiving application handles that content.
-
-The app also includes a **Share app** option. When you use it, Android's share functionality sends a short message containing the Google Play link for Prayer Times & Qibla to the application you choose.
-
-The developer does not receive information about who you share the app or Quran content with.
+The developer does not receive information about who you share content with.
 
 The privacy practices of any application you choose to share content with are governed by that application's own privacy policy.
 
-## Advertising — Google AdMob
+## Advertising — Unity LevelPlay, Unity Ads and ironSource Ads
 
-The Home screen displays one banner advertisement provided by **Google AdMob** using the Google Mobile Ads SDK.
+The Home screen may display one small banner advertisement using **Unity LevelPlay**.
 
-Consent and privacy choices related to advertising may be handled using Google's User Messaging Platform.
+Advertising demand is currently provided through:
 
-Prayer Times & Qibla itself provides the advertising SDK only with information necessary to request and display the banner, such as the ad unit, banner size, and the configured maximum ad content rating.
+- **Unity Ads**
+- **ironSource Ads**
 
-Prayer Times & Qibla does **not** provide the advertising SDK with:
+These advertising services are operated by Unity and related entities under their own privacy policies.
+
+Prayer Times, Qibla & Tracker does **not** provide the advertising SDKs with:
 
 - the location or coordinates used for prayer calculations;
-- your manually selected city;
+- your manually selected city or saved places;
 - your prayer time zone;
-- your prayer times;
+- your calculated prayer times;
 - your prayer calculation method;
 - your Qibla information;
 - your prayer reminder preferences;
 - your selected Adhan audio file or its file reference;
-- your Prayer Tracker entries.
+- your Prayer Tracker entries;
+- your fasting records.
 
-According to Google's disclosures for the Google Mobile Ads SDK, Google may automatically process information such as:
+The advertising SDKs may automatically process technical information necessary to provide, measure, secure, and improve advertising.
 
-- your device's IP address, which may be used to estimate a general or approximate location;
-- app interactions, such as app launches, taps, and advertising interactions;
-- diagnostic information, such as app launch performance, hangs, or related technical information;
-- device or advertising identifiers, such as the Android advertising ID or app set ID, where available.
+Depending on the device, region, privacy choices, and advertising service, this may include information such as:
 
-Google states that such data may be used for purposes including advertising, analytics, and fraud prevention, and is transmitted using encryption in transit.
+- the device's IP address, which may be used to derive an approximate location;
+- advertising or device identifiers, including the Android advertising ID where available;
+- device model, operating-system information and app version;
+- network, carrier and connection information;
+- language and device time-zone information;
+- advertising interactions, such as ad impressions and taps;
+- diagnostic information;
+- information used for advertising, measurement, fraud prevention, security, and compliance.
 
-For more information about Google's data practices, see:
+The app does not enable Android Privacy Sandbox Topics or Attribution Reporting permissions.
 
-- https://policies.google.com/privacy
-- https://policies.google.com/technologies/partner-sites
+For more information about Unity's data practices, see:
+
+- https://unity.com/legal/privacy-policy
+- https://unity.com/legal/game-player-and-app-user-privacy-policy
+
+Advertising providers may provide additional privacy information or rights depending on your country or region.
 
 ## Your advertising and privacy choices
 
-Depending on your region, Google may show a consent or privacy message before advertising is requested.
-
 ### EEA, United Kingdom and Switzerland
 
-Where required, you may be able to:
+Where advertising consent is required, Prayer Times, Qibla & Tracker asks you to make an advertising privacy choice before its advertising partners are initialized.
 
-- consent to advertising-related data processing;
-- decline consent;
-- manage individual privacy options.
+You can accept or decline advertising-related data processing.
 
-If you do not consent to personalized advertising, Google may provide non-personalized or limited advertising.
+If you accept, the app sends the appropriate consent signal to Unity LevelPlay before advertising is initialized.
 
-Certain technical information, such as IP addresses, may still be processed to deliver, secure, and measure advertising.
+If you decline, no advertisement is shown.
 
-### Supported US states
+If the advertising partners have not yet been initialized, they are not started.
 
-Where applicable under US state privacy laws, you may be offered options relating to the sale or sharing of personal information or targeted advertising.
+You can review or change your choice at any time from:
 
-### Changing your choices
+**Settings → Ads & privacy**
 
-Where required and available, you can review or change your advertising privacy choices from:
+If you withdraw consent after advertising has already been initialized during the current app session:
 
-**Settings → Privacy choices**
+- the current banner is removed;
+- the app stops requesting new banners;
+- the updated consent choice is sent to Unity LevelPlay;
+- on the next app launch, advertising partners will not be started while your declined choice remains in effect.
 
-You may also be able to reset or delete your Android advertising ID in your device's Google or privacy settings.
+Unity LevelPlay does not provide the app with a way to completely unload or uninitialize an already initialized advertising SDK during the current process.
 
-The exact path depends on your Android device and Android version.
+### When your regulatory region cannot be determined confidently
+
+If the app cannot confidently determine whether advertising consent requirements apply, it uses the same privacy-choice flow before starting advertising.
+
+The app does not use your selected prayer city, saved places, prayer location, app language, Prayer Tracker entries, or fasting records to determine your advertising privacy region.
+
+### United States privacy choices
+
+The app provides a:
+
+**Do not sell or share my personal information**
+
+option under:
+
+**Settings → Ads & privacy**
+
+When this option is enabled, the app sends an opt-out signal to Unity LevelPlay for supported advertising privacy purposes.
+
+You can change this choice later from the same Settings screen.
+
+### Changing or resetting device advertising identifiers
+
+Android may also allow you to reset, delete, or restrict access to your device's advertising identifier.
+
+The exact path depends on your Android version and device manufacturer.
 
 ## app-ads.txt
 
@@ -221,31 +258,30 @@ https://yasinbyrum.github.io
 
 publishes an `app-ads.txt` file.
 
-The current authorized Google advertising declaration is:
+This file identifies advertising systems and sellers that are authorized to sell or resell advertising inventory for the application.
 
-`google.com, pub-4052811546306670, DIRECT, f08c47fec0942fa0`
-
-The `app-ads.txt` standard publicly identifies advertising accounts authorized to sell advertising inventory for an application and helps prevent advertising fraud.
+The contents of the file may change when advertising providers or authorized sellers change.
 
 The `app-ads.txt` file does not contain information about users.
 
 ## No developer-operated analytics
 
-The app does not include developer-operated analytics or crash-reporting services.
+The app does not include a developer-operated analytics or crash-reporting service.
 
-Data processed by Google for advertising is described in the advertising section above.
+Advertising providers may process advertising, diagnostic, device, network, security, fraud-prevention, and related information as described above.
 
 ## Third-party and open-source software
 
-The app uses open-source software components for functionality such as:
+The app uses third-party and open-source software components for functionality such as:
 
 - prayer-time calculation;
 - local time-zone resolution;
-- application infrastructure.
+- application infrastructure;
+- advertising.
 
 Open-source and Quran-content attribution information is available within the application's **About & Privacy** section.
 
-The Google Mobile Ads SDK and Google's User Messaging Platform are provided by Google.
+Advertising is provided through Unity LevelPlay, Unity Ads and ironSource Ads.
 
 ## External links
 
@@ -255,33 +291,35 @@ Once you leave the app, the privacy practices of the external website or browser
 
 ## Children
 
-The app is intended for a general adult audience and is not specifically designed or marketed to children.
+The app is intended for a general audience and is not specifically designed or marketed to children.
+
+The application and its advertising configuration are not designated as child-directed.
 
 The developer does not knowingly collect personal information from children.
 
 ## Security
 
-Application preferences and Prayer Tracker entries are stored within Android's private application storage.
+Application preferences, Prayer Tracker entries, fasting records, saved places, and advertising privacy choices are stored within Android's private application storage.
 
-Temporary Daily Ayah sharing images are created in the app's private cache and shared only when you explicitly choose a receiving application.
+Temporary sharing images are created in the app's private cache and shared only when you explicitly choose a receiving application.
 
-The developer does not operate a remote database containing Prayer Times & Qibla user profiles, prayer-location information, Adhan audio files, or Prayer Tracker entries.
+The developer does not operate a remote database containing Prayer Times, Qibla & Tracker user profiles, prayer-location information, Adhan audio files, Prayer Tracker entries, or fasting records.
 
-Data processed independently by third-party services such as Google is subject to those services' own security and privacy practices.
+Information independently processed by third-party advertising services is subject to those services' own security and privacy practices.
 
 ## Your rights
 
 Depending on where you live, privacy laws may give you rights concerning personal data.
 
-The developer does not maintain a server-side account or personal-data database for Prayer Times & Qibla users.
+The developer does not maintain a server-side user account or personal-data database for Prayer Times, Qibla & Tracker users.
 
-For information processed by Google for advertising, you can use available privacy choices in the app, your device's advertising settings, or Google's privacy tools and policies.
+For advertising-related information, you can use the **Ads & privacy** controls available in the app, Android's advertising-identifier controls, and the privacy tools or processes provided by Unity and its advertising services.
 
 You may also contact the developer using the email address below.
 
 ## Changes to this Privacy Policy
 
-This Privacy Policy may be updated when the application's features, third-party services, or data practices change.
+This Privacy Policy may be updated when the application's features, third-party services, advertising providers, or data practices change.
 
 The date shown at the top of this page indicates when this Privacy Policy was last updated.
 
