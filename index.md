@@ -1,8 +1,9 @@
 # Privacy Policy
 
-**Last updated: October 16, 2026**
+**Last updated: October 21, 2026**
 
-This Privacy Policy applies to the Android application published under the package name `com.atlasapps.prayer`, displayed as **Prayer Times, Qibla & Tracker**, **Namaz Vakitleri, Ezan & Kıble**, **مواقيت الصلاة والقبلة والأذان**, or **Horaires de prière & Qibla** depending on the user's language.
+This Privacy Policy applies to the Android application published under the package name `com.atlasapps.prayer`, displayed as **Prayer Times, Qibla & Tracker**, **Namaz Vakitleri ve Kıble**, **مواقيت الصلاة والقبلة بدون نت**, or **Horaires de prière & Qibla** depending on the user's language.
+
 
 The application is developed and published by **Yasin Bayram**.
 
